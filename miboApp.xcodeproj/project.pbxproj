@@ -7,9 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C99E4490192F6C0A0029F0AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99E448F192F6C0A0029F0AC /* Foundation.framework */; };
-		C99E4492192F6C0A0029F0AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99E4491192F6C0A0029F0AC /* CoreGraphics.framework */; };
-		C99E4494192F6C0A0029F0AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99E4493192F6C0A0029F0AC /* UIKit.framework */; };
+		C931A36E19322ED8007F5423 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99D2EA31931130A004FF0B3 /* Accelerate.framework */; };
+		C931A36F19322EDC007F5423 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99E44C4192F6D0E0029F0AC /* AssetsLibrary.framework */; };
+		C931A37019322EE0007F5423 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99D2EA519311318004FF0B3 /* AVFoundation.framework */; };
+		C931A37219322EE3007F5423 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C931A37119322EE3007F5423 /* CoreAudio.framework */; };
+		C931A37419322EE8007F5423 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C931A37319322EE8007F5423 /* CoreData.framework */; };
+		C931A37619322EEE007F5423 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C931A37519322EEE007F5423 /* CoreFoundation.framework */; };
+		C931A37719322EF3007F5423 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99D2EA719311329004FF0B3 /* CoreImage.framework */; };
+		C931A37819322EF9007F5423 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99E4491192F6C0A0029F0AC /* CoreGraphics.framework */; };
+		C931A37919322F0A007F5423 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99F1D731931FB1E00C9C4DC /* CoreMedia.framework */; };
+		C931A37B19322F12007F5423 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C931A37A19322F12007F5423 /* CoreMotion.framework */; };
+		C931A37C19322F1B007F5423 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99E448F192F6C0A0029F0AC /* Foundation.framework */; };
+		C931A37E19322F24007F5423 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C931A37D19322F24007F5423 /* ImageIO.framework */; };
+		C931A37F19322F2A007F5423 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99D2EA919311332004FF0B3 /* CoreVideo.framework */; };
+		C931A38019322F40007F5423 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99D2EAB19311358004FF0B3 /* QuartzCore.framework */; };
+		C931A38119322F4D007F5423 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99E4493192F6C0A0029F0AC /* UIKit.framework */; };
+		C931A38319322F5F007F5423 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C931A36C19322DDB007F5423 /* opencv2.framework */; };
+		C99D2EAF193113CC004FF0B3 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C99D2EAE193113CC004FF0B3 /* CameraViewController.m */; };
 		C99E449A192F6C0A0029F0AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C99E4498192F6C0A0029F0AC /* InfoPlist.strings */; };
 		C99E449C192F6C0A0029F0AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C99E449B192F6C0A0029F0AC /* main.m */; };
 		C99E44A0192F6C0A0029F0AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C99E449F192F6C0A0029F0AC /* AppDelegate.m */; };
@@ -21,6 +35,12 @@
 		C99E44B1192F6C0B0029F0AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99E4493192F6C0A0029F0AC /* UIKit.framework */; };
 		C99E44B9192F6C0B0029F0AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C99E44B7192F6C0B0029F0AC /* InfoPlist.strings */; };
 		C99E44BB192F6C0B0029F0AC /* miboAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C99E44BA192F6C0B0029F0AC /* miboAppTests.m */; };
+		C99E44C8192F6DBA0029F0AC /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C99E44C7192F6DBA0029F0AC /* ImageCell.m */; };
+		C99F1D7919320CD100C9C4DC /* TimeLapseCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = C99F1D7619320CD100C9C4DC /* TimeLapseCamera.m */; };
+		C99F1D7A19320CD100C9C4DC /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C99F1D7819320CD100C9C4DC /* OverlayView.m */; };
+		C99F1D7D19320D5C00C9C4DC /* TimeLapseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C99F1D7C19320D5C00C9C4DC /* TimeLapseViewController.m */; };
+		C99F1D86193220E000C9C4DC /* TrackerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C99F1D85193220E000C9C4DC /* TrackerViewController.m */; };
+		C9A5C2231934BA3600FC7F3D /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A5C2221934BA3600FC7F3D /* PhotoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C931A36C19322DDB007F5423 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../opencv2.framework; sourceTree = "<group>"; };
+		C931A37119322EE3007F5423 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		C931A37319322EE8007F5423 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C931A37519322EEE007F5423 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C931A37A19322F12007F5423 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C931A37D19322F24007F5423 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		C99D2EA31931130A004FF0B3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		C99D2EA519311318004FF0B3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C99D2EA719311329004FF0B3 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		C99D2EA919311332004FF0B3 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		C99D2EAB19311358004FF0B3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C99D2EAD193113CC004FF0B3 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraViewController.h; path = classes/CameraViewController.h; sourceTree = "<group>"; };
+		C99D2EAE193113CC004FF0B3 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraViewController.m; path = classes/CameraViewController.m; sourceTree = "<group>"; };
 		C99E448C192F6C0A0029F0AC /* miboApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miboApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99E448F192F6C0A0029F0AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C99E4491192F6C0A0029F0AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +86,20 @@
 		C99E44B6192F6C0B0029F0AC /* miboAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "miboAppTests-Info.plist"; sourceTree = "<group>"; };
 		C99E44B8192F6C0B0029F0AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C99E44BA192F6C0B0029F0AC /* miboAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = miboAppTests.m; sourceTree = "<group>"; };
+		C99E44C4192F6D0E0029F0AC /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		C99E44C6192F6DBA0029F0AC /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		C99E44C7192F6DBA0029F0AC /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		C99F1D731931FB1E00C9C4DC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C99F1D7519320CD100C9C4DC /* TimeLapseCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLapseCamera.h; sourceTree = "<group>"; };
+		C99F1D7619320CD100C9C4DC /* TimeLapseCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLapseCamera.m; sourceTree = "<group>"; };
+		C99F1D7719320CD100C9C4DC /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		C99F1D7819320CD100C9C4DC /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		C99F1D7B19320D5C00C9C4DC /* TimeLapseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeLapseViewController.h; path = classes/TimeLapseViewController.h; sourceTree = "<group>"; };
+		C99F1D7C19320D5C00C9C4DC /* TimeLapseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeLapseViewController.m; path = classes/TimeLapseViewController.m; sourceTree = "<group>"; };
+		C99F1D84193220E000C9C4DC /* TrackerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrackerViewController.h; path = classes/TrackerViewController.h; sourceTree = "<group>"; };
+		C99F1D85193220E000C9C4DC /* TrackerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrackerViewController.m; path = classes/TrackerViewController.m; sourceTree = "<group>"; };
+		C9A5C2211934BA3600FC7F3D /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoViewController.h; path = classes/PhotoViewController.h; sourceTree = "<group>"; };
+		C9A5C2221934BA3600FC7F3D /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoViewController.m; path = classes/PhotoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +107,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C99E4492192F6C0A0029F0AC /* CoreGraphics.framework in Frameworks */,
-				C99E4494192F6C0A0029F0AC /* UIKit.framework in Frameworks */,
-				C99E4490192F6C0A0029F0AC /* Foundation.framework in Frameworks */,
+				C931A38319322F5F007F5423 /* opencv2.framework in Frameworks */,
+				C931A38119322F4D007F5423 /* UIKit.framework in Frameworks */,
+				C931A38019322F40007F5423 /* QuartzCore.framework in Frameworks */,
+				C931A37F19322F2A007F5423 /* CoreVideo.framework in Frameworks */,
+				C931A37E19322F24007F5423 /* ImageIO.framework in Frameworks */,
+				C931A37C19322F1B007F5423 /* Foundation.framework in Frameworks */,
+				C931A37B19322F12007F5423 /* CoreMotion.framework in Frameworks */,
+				C931A37919322F0A007F5423 /* CoreMedia.framework in Frameworks */,
+				C931A37819322EF9007F5423 /* CoreGraphics.framework in Frameworks */,
+				C931A37719322EF3007F5423 /* CoreImage.framework in Frameworks */,
+				C931A37619322EEE007F5423 /* CoreFoundation.framework in Frameworks */,
+				C931A37419322EE8007F5423 /* CoreData.framework in Frameworks */,
+				C931A37219322EE3007F5423 /* CoreAudio.framework in Frameworks */,
+				C931A37019322EE0007F5423 /* AVFoundation.framework in Frameworks */,
+				C931A36F19322EDC007F5423 /* AssetsLibrary.framework in Frameworks */,
+				C931A36E19322ED8007F5423 /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +139,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C99D2E9E19310D33004FF0B3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		C99E4483192F6C0A0029F0AC = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +168,19 @@
 		C99E448E192F6C0A0029F0AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C931A37D19322F24007F5423 /* ImageIO.framework */,
+				C931A37A19322F12007F5423 /* CoreMotion.framework */,
+				C931A37519322EEE007F5423 /* CoreFoundation.framework */,
+				C931A37319322EE8007F5423 /* CoreData.framework */,
+				C931A37119322EE3007F5423 /* CoreAudio.framework */,
+				C931A36C19322DDB007F5423 /* opencv2.framework */,
+				C99F1D731931FB1E00C9C4DC /* CoreMedia.framework */,
+				C99D2EAB19311358004FF0B3 /* QuartzCore.framework */,
+				C99D2EA919311332004FF0B3 /* CoreVideo.framework */,
+				C99D2EA719311329004FF0B3 /* CoreImage.framework */,
+				C99D2EA519311318004FF0B3 /* AVFoundation.framework */,
+				C99D2EA31931130A004FF0B3 /* Accelerate.framework */,
+				C99E44C4192F6D0E0029F0AC /* AssetsLibrary.framework */,
 				C99E448F192F6C0A0029F0AC /* Foundation.framework */,
 				C99E4491192F6C0A0029F0AC /* CoreGraphics.framework */,
 				C99E4493192F6C0A0029F0AC /* UIKit.framework */,
@@ -112,6 +192,7 @@
 		C99E4495192F6C0A0029F0AC /* miboApp */ = {
 			isa = PBXGroup;
 			children = (
+				C99E44C9192F6DC10029F0AC /* Classes */,
 				C99E449E192F6C0A0029F0AC /* AppDelegate.h */,
 				C99E449F192F6C0A0029F0AC /* AppDelegate.m */,
 				C99E44A1192F6C0A0029F0AC /* Main.storyboard */,
@@ -126,6 +207,7 @@
 		C99E4496192F6C0A0029F0AC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C99D2E9E19310D33004FF0B3 /* images */,
 				C99E4497192F6C0A0029F0AC /* miboApp-Info.plist */,
 				C99E4498192F6C0A0029F0AC /* InfoPlist.strings */,
 				C99E449B192F6C0A0029F0AC /* main.m */,
@@ -150,6 +232,27 @@
 				C99E44B7192F6C0B0029F0AC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C99E44C9192F6DC10029F0AC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C99F1D7519320CD100C9C4DC /* TimeLapseCamera.h */,
+				C99F1D7619320CD100C9C4DC /* TimeLapseCamera.m */,
+				C99F1D7719320CD100C9C4DC /* OverlayView.h */,
+				C99F1D7819320CD100C9C4DC /* OverlayView.m */,
+				C99E44C6192F6DBA0029F0AC /* ImageCell.h */,
+				C99E44C7192F6DBA0029F0AC /* ImageCell.m */,
+				C99D2EAD193113CC004FF0B3 /* CameraViewController.h */,
+				C99D2EAE193113CC004FF0B3 /* CameraViewController.m */,
+				C99F1D7B19320D5C00C9C4DC /* TimeLapseViewController.h */,
+				C99F1D7C19320D5C00C9C4DC /* TimeLapseViewController.m */,
+				C99F1D84193220E000C9C4DC /* TrackerViewController.h */,
+				C99F1D85193220E000C9C4DC /* TrackerViewController.m */,
+				C9A5C2211934BA3600FC7F3D /* PhotoViewController.h */,
+				C9A5C2221934BA3600FC7F3D /* PhotoViewController.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +352,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C99D2EAF193113CC004FF0B3 /* CameraViewController.m in Sources */,
+				C99E44C8192F6DBA0029F0AC /* ImageCell.m in Sources */,
+				C99F1D7A19320CD100C9C4DC /* OverlayView.m in Sources */,
+				C99F1D86193220E000C9C4DC /* TrackerViewController.m in Sources */,
 				C99E44A6192F6C0A0029F0AC /* ViewController.m in Sources */,
+				C99F1D7919320CD100C9C4DC /* TimeLapseCamera.m in Sources */,
 				C99E44A0192F6C0A0029F0AC /* AppDelegate.m in Sources */,
 				C99E449C192F6C0A0029F0AC /* main.m in Sources */,
+				C99F1D7D19320D5C00C9C4DC /* TimeLapseViewController.m in Sources */,
+				C9A5C2231934BA3600FC7F3D /* PhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,11 +486,32 @@
 		C99E44BF192F6C0B0029F0AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_WARN_BOOL_CONVERSION = "$(CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION)";
+				CLANG_WARN_CONSTANT_CONVERSION = "$(CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION)";
+				CLANG_WARN_ENUM_CONVERSION = "$(CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION)";
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
+				CLANG_WARN_INT_CONVERSION = "$(CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ahmet Vural (GYYS37RR2M)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ahmetv/Desktop,
+					"\\\\\\\"$(SRCROOT)/..\\\\\\\"",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "miboApp/miboApp-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
 				INFOPLIST_FILE = "miboApp/miboApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -389,11 +520,33 @@
 		C99E44C0192F6C0B0029F0AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_WARN_BOOL_CONVERSION = "$(CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION)";
+				CLANG_WARN_CONSTANT_CONVERSION = "$(CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION)";
+				CLANG_WARN_ENUM_CONVERSION = "$(CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION)";
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
+				CLANG_WARN_INT_CONVERSION = "$(CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ahmet Vural (GYYS37RR2M)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ahmetv/Desktop,
+					"\\\\\\\"$(SRCROOT)/..\\\\\\\"",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "miboApp/miboApp-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
 				INFOPLIST_FILE = "miboApp/miboApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +613,7 @@
 				C99E44C0192F6C0B0029F0AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C99E44C1192F6C0B0029F0AC /* Build configuration list for PBXNativeTarget "miboAppTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +622,7 @@
 				C99E44C3192F6C0B0029F0AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

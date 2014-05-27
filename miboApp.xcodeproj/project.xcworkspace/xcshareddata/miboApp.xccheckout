@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>64027BC5-D770-4E9F-B4D4-A3E8463C5B1B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>miboApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>13D82606-525E-47B8-B278-C3100D8FE71F</key>
+		<string>https://github.com/avilabs/miboApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>miboApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>13D82606-525E-47B8-B278-C3100D8FE71F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/avilabs/miboApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>13D82606-525E-47B8-B278-C3100D8FE71F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>13D82606-525E-47B8-B278-C3100D8FE71F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>miboApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
